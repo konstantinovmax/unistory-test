@@ -1,0 +1,124 @@
+.card-edit {
+  padding: 40px 100px 40px 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-edit__back-button {
+  width: 160px;
+  height: 40px;
+  border: 1px solid #B8C4D7;
+  background-color: #D8E9F8;
+  outline: none;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+}
+
+.card-edit__title-container {
+  margin: 40px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-edit__title {
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000;
+}
+
+.card-edit__input-title {
+  margin: 20px 0 0 0;
+  width: 100%;
+  height: 30px;
+  border: 2px solid #000;
+  background-color: #fff;
+
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000;
+  outline: none;
+}
+
+.card-edit__input-content {
+  margin: 40px 0 0 0;
+  width: 100%;
+  height: 350px;
+  border: 2px solid #000;
+  background-color: #fff;
+
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #000;
+  outline: none;
+}
+
+.card-edit__buttons-container {
+  margin: 30px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-edit__delete-button {
+  width: 160px;
+  height: 50px;
+  border: 1px solid #B59090;
+  background-color: #F7CECC;
+  outline: none;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 38px;
+  color: #000;
+}
+
+.card-edit__submit-button {
+  width: 160px;
+  height: 50px;
+  border: 1px solid #B8C4D7;
+  background-color: #D8E9F8;
+  outline: none;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 38px;
+  color: #000;
+}
+
+@media screen and (max-width: 650px) {
+  .card-edit {
+    padding: 40px 20px 40px 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .card-edit__back-button {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .card-edit__buttons-container {
+    margin: 50px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .card-edit__submit-button {
+    margin: 30px 0 0 0;
+  }
+}

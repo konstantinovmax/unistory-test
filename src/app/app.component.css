@@ -1,0 +1,21 @@
+header, span, div, nav, p, h1, h2, h3, h4, a, section, ul, li, img, iframe, input, textarea, button, main {
+  outline: 1px solid;
+  outline-color: red;
+}
+
+.app {
+  margin: 0;
+  background-color: #FFF;
+  font-family: sans-serif;
+  color: #262626;
+}
+
+.app__content {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1440px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
